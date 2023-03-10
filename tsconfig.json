@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es2022",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "declaration": true,
+      "jsx": "react"
+    },
+    "include": ["*.ts", "*.tsx" ],
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+    }
+  }
+  
